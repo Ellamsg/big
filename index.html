@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<script src="https://kit.fontawesome.com/3b9e2cc044.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+<div class="container">
+<nav>
+  <button  onclick="document.getElementById('menu').style.display='block'" class="w3-button w3-black w3-animate-fading"><i style="font-size:30px;" class="fa-solid fa-bars"></i></button>
+    <ul id="menu" class="w3-modal" class="w3-modal-content w3-animate-fading" >
+      <span onclick="document.getElementById('menu').style.display='none'" class="w3-button w3-display-topright w3-large w3-white w3-animate-fading">x</span>
+       <li><a href="home.html" >HOME</a></li>       
+       <li><a href="More.html" >MORE</a></li>
+       <li><a href="home.html" >ABOUT</a></li>
+       <li><a href="home.html" >BLOG</a></li>
+      </ul>
+           
+</nav>
+<main>
+  <h1 style="color: rgb(0, 255, 21);text-align: center;"><i class="fa solid fa-spinner fa-spin-pulse w3-spin" style="font-size:64px"></i> </h1>
+  <h1 class="w3-animate-left " style="text-align:center;color:white; font-family: 'Times New Roman', serif;">EXPLORE PHOTOGRAPHY
+ <br> <button id="btn-click"  type="submit"><a href="mainpage1.html">GET STARTED</a></button>
+</h1>
+</main>
+
+
+  
+
+
+ 
+
+<footer>
+  <h4 style="text-align:center;color:white;font-family: 'Times New Roman', serif;">REACH US</h4>
+  <P style="text-align:center;color:white"><a href="#">ellamsgeoge7@gmail.com</a></P>
+</footer>
+</div>
+<script>
+function myFunction(){
+  alert('welcome to my world');
+}
+let George=  document.getElementById("review");
+
+function myFunction(){
+    if (George.style.display === "none"){
+    George.style.display ="block";
+    }
+    else {
+        George.style.display ="none";
+    }
+    }
+
+</script>
+</body>
+
+
+</html>
